@@ -4,9 +4,9 @@ rvm:
   - 2.2.1
 
 # whitelist
-branches:
-  only:
-    - master
+# branches:
+#   only:
+#     - master
 
 gemfile:
   - gemfiles/capybara_1_1.gemfile
