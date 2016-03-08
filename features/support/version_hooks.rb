@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module VersionHooksHelper
   def rails_version
     @rails_version ||= `bundle exec rails --version`.match(/[\d.]+$/).to_s

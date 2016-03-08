@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'rails/application'
 
 # Make sure the ActionDispatch::ShowExceptions middleware is always enabled,

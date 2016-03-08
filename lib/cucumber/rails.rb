@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 env_caller = File.dirname(caller.detect{ |f| f =~ /\/env\.rb:/ }) if caller.detect{ |f| f =~ /\/env\.rb:/ }
 if env_caller
   require 'rails'

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module WebSteps
   def create_web_steps
     write_file('features/step_definitions/web_steps.rb', <<-EOF)

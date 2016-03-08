@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 Before('@allow-rescue') do
   @__orig_allow_rescue = ActionController::Base.allow_rescue
   ActionController::Base.allow_rescue = true

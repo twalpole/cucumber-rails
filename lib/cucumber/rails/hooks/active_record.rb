@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 if defined?(ActiveRecord::Base)
   class ActiveRecord::Base
     class_attribute :shared_connection
